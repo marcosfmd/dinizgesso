@@ -26,8 +26,8 @@
   height: 100vh;
   width: 100%;
   background-color: var(--body-bg-color);
-  padding-block: 50px;
-}
+  padding-block: 5px;
+} 
 
 .data-profile {
   display: flex;
@@ -38,7 +38,7 @@
 }
 
 .photo-profile {
-  width: 200px;
+  width: 150px;
   border-radius: 10px;
   padding: 4px;
 }
@@ -89,7 +89,7 @@
 .work-name {
   font-weight: bold;
   font-size: 26px;
-  margin: 15px 0;
+  margin: 15px 0 10px;
 }
 
 .work-name:hover {
@@ -107,7 +107,7 @@
   gap: 15px;
   border: 3px solid var(--emphasis);
   border-radius: 4px;
-  margin-block: 15px;
+  margin-block: 10px;
 }
 
 .list-item:hover {
